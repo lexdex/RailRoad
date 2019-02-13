@@ -13,6 +13,7 @@ public class Train {
         Name = name;
         ArrayList<Carriage> carriages= new ArrayList<>(CarriagesNumber);
     }
+    public Train(){}
 
     public int getId() {
         return Id;
@@ -52,7 +53,7 @@ public class Train {
 
     }
 
-    public int CountTrainFreePlaces (byte[] booked) {
+    public int CountTrainFreePlaces () {
         int count = 0;
         for (Carriage car : carriages) {
            count+=car.CountFreePlaces();

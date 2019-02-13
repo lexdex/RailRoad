@@ -1,6 +1,5 @@
 package com.example.demo.domain;
 
-import lombok.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -16,6 +15,8 @@ public class RouteNode {
         Name = name;
         Time = time;
     }
+
+    public RouteNode(){}
 
     public int getID() {
         return ID;
