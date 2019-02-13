@@ -34,7 +34,7 @@ public class RailRoadController extends Railroad {
     }
 
 
-    void showResults() {
+    void showResult() {
         if (results.isEmpty()) {
             System.out.println("There are no results");
         } else {
